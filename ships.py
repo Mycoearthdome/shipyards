@@ -125,322 +125,3710 @@ World_fleet = {
         "Mauritius": {"count": 3, "average_age": 25}
     },
 
-    "shipyards": {
-        "Chantiers de l’Atlantique (Saint‑Nazaire, France)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["Cruise", "Commercial", "Naval"]
-        },
-        "Harland & Wolff (Belfast, UK)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["Defense", "Offshore", "Commercial"]
-        },
-        "Saab Kockums (Malmö, Sweden)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["Naval", "Submarine"]
-        },
-        "Zvezda Shipbuilding Complex (Bolshoy Kamen, Russia)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["Oil & Gas", "Icebreaker", "LNG"]
-        },
-        "United Shipbuilding Corporation (Russia)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["Naval", "Commercial"]
-        },
-        "Hyundai Samho Heavy Industries (Mokpo, South Korea)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["VLCC", "Container Ship", "Offshore"]
-        },
-        "Hyundai Mipo Dockyard (South Korea)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["Bulk Carrier", "Product Carrier", "Car Carriers"]
-        },
-        "STX Offshore & Shipbuilding (South Korea)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["FPSO", "Drillship", "LNG"]
-        },
-        "Mitsui E&S Shipbuilding (Japan)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["Bulk Carrier", "LNG", "Repair"]
-        },
-        "Japan Marine United (Japan)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["Naval", "LNG", "Container Ship"]
-        },
-        "Yantai Raffles Shipyard (China)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["Offshore", "Platform"]
-        },
-        "Bohai Shipyard (Huludao, China)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["Military", "Civilian"]
-        },
-        "Shanghai Waigaoqiao Shipbuilding (China)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["Container Ship", "Tanker"]
-        },
-        "China Merchants Heavy Industry (China)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["Bulk Carrier", "Offshore"]
-        },
-        "Yangzijiang Shipbuilding (China)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["Container Ship", "Multi-purpose"]
-        },
-        "COSCO Shipyard Group (China)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["Bulk Carrier", "Repair"]
-        },
-        "Hudong‑Zhonghua Shipbuilding (China)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["LNG", "Naval", "Container"]
-        },
-        "Davie Shipbuilding (Lévis, Canada)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["Commercial", "Offshore", "Repair"]
-        },
-        "Newport News Shipbuilding (USA)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["Naval", "Submarine"]
-        },
-        "Norfolk Naval Shipyard (USA)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["Repair", "Overhaul"]
-        },
-        "Electric Boat (USA)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["Submarine"]
-        },
-        "Puget Sound Naval Shipyard (USA)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["Repair", "Naval"]
-        },
-        "Cascade General Ship Repair (USA)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["Repair"]
-        },
-        "Pearl Harbor Naval Shipyard (USA)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["Repair", "Naval"]
-        },
-        "NASSCO (San Diego, USA)": {
-        "is_busy": False,
-        "current_project_start": None,
-        "current_project_end": None,
-        "allowed_categories": ["Commercial", "Tanker"]
-        },
-        "Hyundai Heavy Industries (HHI), Ulsan": {
-            "is_busy": True,
-            "current_project_start": date(2025, 5, 10),
-            "current_project_end": date(2026, 1, 15),
-            "project_category": "Commercial",
-            "allowed_categories": ["Commercial", "Oil & Gas", "Offshore Energy", "LNG", "Bulk Carrier"]
-        },
-        "Daewoo Shipbuilding & Marine Engineering (DSME), Okpo": {
-            "is_busy": True,
-            "current_project_start": date(2025, 3, 15),
-            "current_project_end": date(2025, 12, 30),
-            "project_category": "Offshore Energy",
-            "allowed_categories": ["Offshore Energy", "Naval", "Submarine", "Commercial", "LNG"]
-        },
-        "Samsung Heavy Industries, Geoje": {
-            "is_busy": False,
-            "current_project_start": None,
-            "allowed_categories": ["Commercial", "Offshore Energy", "LNG", "Oil & Gas"]
-        },
-        "China State Shipbuilding Corporation (CSSC), Shanghai": {
-            "is_busy": True,
-            "current_project_start": date(2025, 6, 1),
-            "current_project_end": date(2026, 3, 15),
-            "project_category": "Naval",
-            "allowed_categories": ["Naval", "Submarine", "Commercial", "Defense"]
-        },
-        "Dalian Shipbuilding Industry Company (DSIC), Dalian": {
-            "is_busy": True,
-            "current_project_start": date(2025, 4, 20),
-            "current_project_end": date(2026, 2, 5),
-            "project_category": "Commercial",
-            "allowed_categories": ["Commercial", "Oil & Gas", "Container Ship", "LNG"]
-        },
-        "Jiangnan Shipyard, Shanghai": {
-            "is_busy": False,
-            "current_project_start": None,
-            "current_project_end": None,
-            "allowed_categories": ["Commercial", "LNG", "Naval"]
-        },
-        "Guangzhou Shipyard International": {
-            "is_busy": True,
-            "current_project_start": date(2025, 7, 5),
-            "current_project_end": date(2026, 6, 30),
-            "project_category": "Defense",
-            "allowed_categories": ["Defense", "Naval", "Commercial"]
-        },
-        "Mitsubishi Heavy Industries, Nagasaki & Kobe": {
-            "is_busy": True,
-            "current_project_start": date(2025, 2, 28),
-            "current_project_end": date(2025, 12, 1),
-            "project_category": "Cruise",
-            "allowed_categories": ["Cruise", "Naval", "Submarine", "Commercial"]
-        },
-        "Imabari Shipbuilding, Ehime": {
-            "is_busy": False,
-            "current_project_start": None,
-            "current_project_end": None,
-            "allowed_categories": ["Bulk Carrier", "Commercial", "Container Ship"]
-        },
-        "Oshima Shipbuilding, Saikai": {
-            "is_busy": True,
-            "current_project_start": date(2025, 5, 22),
-            "current_project_end": date(2026, 2, 1),
-            "project_category": "Commercial",
-            "allowed_categories": ["Bulk Carrier", "Commercial"]
-        },
-        "Fincantieri, Italy": {
-            "is_busy": True,
-            "current_project_start": date(2025, 1, 12),
-            "current_project_end": date(2026, 1, 12),
-            "project_category": "Cruise",
-            "allowed_categories": ["Cruise", "Naval", "Defense", "Submarine"]
-        },
-        "Meyer Werft, Germany": {
-            "is_busy": False,
-            "current_project_start": None,
-            "current_project_end": None,
-            "allowed_categories": ["Cruise", "Ferry", "Luxury Yachts"]
-        },
-        "Navantia, Spain": {
-            "is_busy": True,
-            "current_project_start": date(2025, 8, 1),
-            "current_project_end": date(2026, 5, 20),
-            "project_category": "Naval",
-            "allowed_categories": ["Naval", "Submarine", "Defense"]
-        },
-        "Huntington Ingalls Industries, Virginia & Mississippi": {
-            "is_busy": True,
-            "current_project_start": date(2025, 1, 3),
-            "current_project_end": date(2026, 3, 31),
-            "project_category": "Defense",
-            "allowed_categories": ["Defense", "Naval", "Submarine"]
-        },
-        "General Dynamics NASSCO, San Diego": {
-            "is_busy": True,
-            "current_project_start": date(2025, 2, 17),
-            "current_project_end": date(2025, 11, 17),
-            "project_category": "Commercial",
-            "allowed_categories": ["Commercial", "Fleet Replenishment", "Tanker"]
-        },
-        "Bath Iron Works, Maine": {
-            "is_busy": False,
-            "current_project_start": None,
-            "current_project_end": None,
-            "allowed_categories": ["Naval", "Defense"]
-        },
-        "Sevmash, Severodvinsk": {
-            "is_busy": True,
-            "current_project_start": date(2025, 3, 1),
-            "current_project_end": date(2026, 8, 1),
-            "project_category": "Naval",
-            "allowed_categories": ["Submarine", "Naval"]
-        },
-        "Admiralty Shipyards, St. Petersburg": {
-            "is_busy": True,
-            "current_project_start": date(2025, 6, 12),
-            "current_project_end": date(2026, 4, 10),
-            "project_category": "Submarine",
-            "allowed_categories": ["Submarine", "Naval", "Research"]
-        },
-        "Cochin Shipyard, Kochi": {
-            "is_busy": True,
-            "current_project_start": date(2025, 7, 20),
-            "current_project_end": date(2026, 5, 15),
-            "project_category": "Defense",
-            "allowed_categories": ["Defense", "Naval", "Commercial"]
-        },
-        "Garden Reach Shipbuilders & Engineers, Kolkata": {
-            "is_busy": True,
-            "current_project_start": date(2025, 8, 15),
-            "current_project_end": date(2026, 6, 10),
-            "project_category": "Naval",
-            "allowed_categories": ["Naval", "Patrol", "Defense"]
-        },
-        "Estaleiro Atlântico Sul, Pernambuco": {
-            "is_busy": True,
-            "current_project_start": date(2025, 6, 5),
-            "current_project_end": date(2026, 4, 30),
-            "project_category": "Oil & Gas",
-            "allowed_categories": ["Oil & Gas", "Commercial", "LNG"]
-        },
-        "RMK Marine, Istanbul": {
-            "is_busy": True,
-            "current_project_start": date(2025, 7, 1),
-            "current_project_end": date(2026, 3, 1),
-            "project_category": "Luxury Yachts",
-            "allowed_categories": ["Luxury Yachts", "Ferries", "Small Naval", "Commercial"]
-        },
-        "Irving Shipbuilding, Canada": {
-            "is_busy": True,
-            "current_project_start": date(2025, 8, 10),
-            "current_project_end": date(2026, 7, 10),
-            "project_category": "Defense",
-            "allowed_categories": ["Defense", "Naval", "Patrol"]
-        },
-        "DCD Marine, South Africa": {
-            "is_busy": True,
-            "current_project_start": date(2025, 4, 25),
-            "current_project_end": date(2026, 1, 25),
-            "project_category": "Commercial",
-            "allowed_categories": ["Commercial", "Support Vessels", "Patrol"]
-        }
+  "shipyards": {
+    "China Shipbuilding Group (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval",
+        "Offshore",
+        "Subsea"
+      ]
+    },
+    "Hyundai Heavy Industries (HHI), South Korea": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore",
+        "LNG",
+        "Naval",
+        "Bulk Carrier"
+      ]
+    },
+    "Daewoo Shipbuilding & Marine Engineering (DSME), South Korea": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore Energy",
+        "Submarine",
+        "LNG"
+      ]
+    },
+    "Samsung Heavy Industries (SHI), South Korea": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "LNG",
+        "FPSO",
+        "Container Ship",
+        "Offshore"
+      ]
+    },
+    "Japan Marine United (JMU), Japan": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval",
+        "Offshore",
+        "LNG",
+        "Submarine"
+      ]
+    },
+    "Imabari Shipbuilding, Japan": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Bulk Carrier",
+        "Container Ship",
+        "Tanker"
+      ]
+    },
+    "Fincantieri, Italy": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Cruise",
+        "Naval",
+        "Submarine"
+      ]
+    },
+    "Sumitomo Heavy Industries, Japan": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Bulk Carrier",
+        "Special Vessels"
+      ]
+    },
+    "Damen Shipyards Group, Netherlands": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Patrol",
+        "Ferries",
+        "Offshore Support",
+        "Tug"
+      ]
+    },
+    "Sembcorp Marine, Singapore": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore",
+        "Green Shipping"
+      ]
+    },
+    "Kawasaki Shipbuilding (Kobe, Japan)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval",
+        "Tankers",
+        "Ro-Ro",
+        "Patrol"
+      ]
+    },
+    "Mitsui E&S Shipbuilding (Tamano, Japan)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Bulk Carrier",
+        "LNG",
+        "Patrol",
+        "Fishing"
+      ]
+    },
+    "Mitsubishi Heavy Industries (Nagasaki & Kobe, Japan)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "LNG",
+        "Oil Tankers",
+        "Cruise",
+        "Naval"
+      ]
+    },
+    "Yantai Raffles Shipyard (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Offshore",
+        "Platform",
+        "Commercial"
+      ]
+    },
+    "Jiangnan Shipyard (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval",
+        "Submarine"
+      ]
+    },
+    "Damen Galați (Romania)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval",
+        "Offshore",
+        "Tug",
+        "Research"
+      ]
+    },
+    "BLRT Grupp (Estonia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair",
+        "Offshore"
+      ]
+    },
+    "Westcon Yards AS (Norway)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore",
+        "Repair"
+      ]
+    },
+    "Palumbo Group (Italy)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial",
+        "Superyachts"
+      ]
+    },
+    "Ingalls Shipbuilding (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial",
+        "Rigs",
+        "Cruise"
+      ]
+    },
+    "BAE Systems Maritime (UK)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Submarine"
+      ]
+    },
+    "Harland & Wolff (UK)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore",
+        "Defense"
+      ]
+    },
+    "Karachi Shipyard (Pakistan)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Mazagaon Dock (India)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial",
+        "Submarine"
+      ]
+    },
+    "Aker Solutions (Norway)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Odense Maritime Technology (Denmark)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval",
+        "Submarine"
+      ]
+    },
+    "Remontowa Shipbuilding (Poland)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "CSBC Corporation (Taiwan)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "Malaysia Marine & Heavy Engineering (Malaysia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Offshore",
+        "Commercial"
+      ]
+    },
+    "PT PAL Indonesia (Indonesia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Austal (Australia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval",
+        "Ferries"
+      ]
+    },
+    "ASTIMAR Tampico (Mexico)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "ASMAR (Chile)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "ASENAV (Chile)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Atlântico Sul Shipyard (Brazil)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Astillero Rio Santiago (Argentina)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "SPI Astilleros (Argentina)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "SIMA Callao (Peru)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "ASTINAVE (Ecuador)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Ba Son Shipyard (Vietnam)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Cochin Shipyard (India)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "Garden Reach (India)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Estaleiro Atlântico Sul (Brazil)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "RMK Marine (Turkey)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "Irving Shipbuilding (Canada)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "DCD Marine (South Africa)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "CSSC Jiangnan Shipyard (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval",
+        "LNG"
+      ]
+    },
+    "Hudong–Zhonghua Shipbuilding (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval",
+        "LNG",
+        "Submarine"
+      ]
+    },
+    "Shanghai Waigaoqiao Shipbuilding (SWS) (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Container Ship",
+        "Bulk Carrier"
+      ]
+    },
+    "Dalian Shipbuilding Industry (DSIC) (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval",
+        "Tanker"
+      ]
+    },
+    "Guangzhou Shipyard International (GSI) (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Ro-Pax",
+        "Tanker"
+      ]
+    },
+    "Qingdao Beihai Shipbuilding (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Bulk Carrier"
+      ]
+    },
+    "China Merchants Heavy Industry (Shenzhen) (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore",
+        "Repair"
+      ]
+    },
+    "China Merchants Heavy Industry (Jiangsu) (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Yangzijiang Shipbuilding (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Container Ship",
+        "Bulk Carrier"
+      ]
+    },
+    "New Times Shipbuilding (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Tanker",
+        "Bulk Carrier"
+      ]
+    },
+    "COSCO Shipping Heavy Industry (Zhoushan) (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "COSCO Shipping Heavy Industry (Nantong) (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Wuchang Shipbuilding Industry Group (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Bohai Shipbuilding Heavy Industry (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial",
+        "Submarine"
+      ]
+    },
+    "Zhejiang Shipping Group Yard (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Mawei Shipyard (Fuzhou) (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Huangpu Wenchong Shipyard (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "CIMC Raffles Yantai (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Offshore",
+        "Commercial",
+        "FPSO"
+      ]
+    },
+    "Jiangsu New Yangzi Shipbuilding (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Container Ship"
+      ]
+    },
+    "NACKS – Nantong COSCO KHI Ship Engineering (China)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Container Ship",
+        "Bulk Carrier"
+      ]
+    },
+    "HD Hyundai Mipo Dockyard (South Korea)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Tanker",
+        "Container Ship"
+      ]
+    },
+    "Hyundai Samho Heavy Industries (South Korea)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Container Ship",
+        "LNG"
+      ]
+    },
+    "Hanwha Ocean (ex-DSME) (South Korea)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval",
+        "LNG"
+      ]
+    },
+    "STX Offshore & Shipbuilding (South Korea)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Bulk Carrier"
+      ]
+    },
+    "Daehan Shipbuilding (South Korea)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Tanker",
+        "Bulk Carrier"
+      ]
+    },
+    "Sungdong Shipbuilding (South Korea)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Bulk Carrier"
+      ]
+    },
+    "Oshima Shipbuilding (Japan)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Bulk Carrier"
+      ]
+    },
+    "Tsuneishi Shipbuilding (Japan)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Bulk Carrier"
+      ]
+    },
+    "Namura Shipbuilding (Japan)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Bulk Carrier",
+        "Tanker"
+      ]
+    },
+    "Shin Kurushima Dockyard (Japan)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Container Ship"
+      ]
+    },
+    "Onomichi Dockyard (Japan)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Bulker",
+        "Tanker"
+      ]
+    },
+    "Kure Shipyard (JMU) (Japan)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "Mitsubishi Heavy Industries – Nagasaki Shipyard (Japan)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Cruise",
+        "LNG"
+      ]
+    },
+    "Kawasaki Heavy Industries – Sakaide (Japan)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "LNG",
+        "Tanker"
+      ]
+    },
+    "CSBC Kaohsiung Shipyard (Taiwan)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "CSBC Keelung Shipyard (Taiwan)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "Seatrium Tuas Yard (Singapore)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Offshore",
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Seatrium Benoi Yard (Singapore)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Offshore",
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "PaxOcean Tuas (Singapore)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Offshore",
+        "Commercial"
+      ]
+    },
+    "Damen Shiprepair Singapore (Singapore)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "PT PAL Surabaya (Indonesia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "ASL Shipyard Batam (Indonesia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore",
+        "Repair"
+      ]
+    },
+    "PaxOcean Graha (Indonesia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Offshore",
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Batamec Shipyard (Indonesia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "MMHE – Malaysia Marine & Heavy Engineering (Malaysia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Offshore",
+        "Commercial"
+      ]
+    },
+    "Boustead Naval Shipyard Lumut (Malaysia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Nam Cheong Dockyard (Malaysia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Shin Yang Shipyard (Malaysia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Damen Song Cam (Vietnam)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Tug",
+        "Patrol"
+      ]
+    },
+    "VARD Vung Tau (Vietnam)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore",
+        "Cruise"
+      ]
+    },
+    "Ha Long Shipyard (Vietnam)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Z189 – Song Thu Corporation (Vietnam)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Austal Philippines (Balamban) (Philippines)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Ferries"
+      ]
+    },
+    "Tsuneishi Heavy Industries (Cebu) (Philippines)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Bulk Carrier"
+      ]
+    },
+    "Subic Shipyard (ex-Hanjin) (Philippines)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Bangkok Dock (Thailand)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Marsun Shipyard (Thailand)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Patrol"
+      ]
+    },
+    "Colombo Dockyard (Sri Lanka)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair",
+        "Offshore"
+      ]
+    },
+    "Western Marine Shipyard (Bangladesh)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Ferries"
+      ]
+    },
+    "Ananda Shipyard & Slipways (Bangladesh)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Ferries"
+      ]
+    },
+    "Mazagon Dock Shipbuilders (India)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Submarine",
+        "Commercial"
+      ]
+    },
+    "Garden Reach Shipbuilders & Engineers (GRSE) (India)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Cochin Shipyard Limited (India)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "Goa Shipyard Limited (India)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Hindustan Shipyard Ltd (India)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "L&T Shipbuilding Kattupalli (India)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "ABG Shipyard (India)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Karachi Shipyard & Engineering Works (Pakistan)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Drydocks World Dubai (UAE)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Offshore",
+        "Commercial"
+      ]
+    },
+    "Abu Dhabi Ship Building (ADSB) (UAE)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Albwardy Damen (UAE)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Grandweld Shipyards (UAE)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "ASRY – Arab Shipbuilding & Repair Yard (Bahrain)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "International Maritime Industries (Saudi Arabia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Zamil Offshore (Saudi Arabia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Nakilat Damen Shipyards Qatar (Qatar)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Asyad Drydock (Duqm) (Oman)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "ISOICO – Iran Shipbuilding & Offshore Industries (Iran)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "SADRA Shipbuilding (Iran)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Offshore",
+        "Commercial"
+      ]
+    },
+    "Israel Shipyards (Israel)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Alexandria Shipyard (Egypt)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Port Said Shipyard (Egypt)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Suez Shipyard (Egypt)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Damen Shipyards Cape Town (South Africa)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "Southern African Shipyards (South Africa)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "Sandock Austral Shipyards (South Africa)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "Namdock – Elgin Brown & Hamer (Namibia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Nigerdock (Nigeria)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore",
+        "Repair"
+      ]
+    },
+    "Naval Dockyard Limited Lagos (Nigeria)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Repair"
+      ]
+    },
+    "Tema Shipyard (Ghana)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Dakar Shipyard (Senegal)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Paenal Yard (Angola)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Offshore",
+        "Commercial"
+      ]
+    },
+    "Meyer Turku (Finland)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Cruise"
+      ]
+    },
+    "Rauma Marine Constructions (RMC) (Finland)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Ferries"
+      ]
+    },
+    "Helsinki Shipyard (Finland)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Arctic"
+      ]
+    },
+    "Uudenkaupungin Työvene (Finland)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Patrol"
+      ]
+    },
+    "Saab Kockums Karlskrona (Sweden)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Submarine"
+      ]
+    },
+    "Oskarshamn Shipyard (Sweden)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Fayard Odense (Denmark)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Karstensens Skibsværft (Denmark)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Fishing"
+      ]
+    },
+    "Orskov Yard (Denmark)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Meyer Werft Papenburg (Germany)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Cruise"
+      ]
+    },
+    "ThyssenKrupp Marine Systems Kiel (Germany)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Submarine"
+      ]
+    },
+    "Lürssen Werft (Germany)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Yacht"
+      ]
+    },
+    "Blohm+Voss (Germany)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Yacht",
+        "Naval"
+      ]
+    },
+    "German Naval Yards Kiel (Germany)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Repair"
+      ]
+    },
+    "Flensburger Schiffbau-Gesellschaft (FSG) (Germany)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Ro-Ro"
+      ]
+    },
+    "Abeking & Rasmussen (Germany)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Yacht",
+        "Naval"
+      ]
+    },
+    "Fassmer (Germany)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Patrol"
+      ]
+    },
+    "Damen Shipyards Vlissingen (Netherlands)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Damen Shipyards Gorinchem (Netherlands)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Tug"
+      ]
+    },
+    "Royal IHC (Netherlands)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Dredgers"
+      ]
+    },
+    "Heesen Yachts (Netherlands)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Yacht"
+      ]
+    },
+    "Oceanco (Netherlands)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Yacht"
+      ]
+    },
+    "Feadship – Royal De Vries (Netherlands)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Yacht"
+      ]
+    },
+    "Feadship – Royal Van Lent (Netherlands)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Yacht"
+      ]
+    },
+    "Damen Yachting – Amels (Netherlands)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Yacht"
+      ]
+    },
+    "Ferus Smit (Netherlands)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial"
+      ]
+    },
+    "Royal Niestern Sander (Netherlands)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Chantiers de l'Atlantique (France)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Cruise",
+        "Naval"
+      ]
+    },
+    "Naval Group Brest (France)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Submarine"
+      ]
+    },
+    "Naval Group Lorient (France)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval"
+      ]
+    },
+    "Naval Group Cherbourg (France)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Submarine"
+      ]
+    },
+    "Naval Group Toulon (France)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Repair"
+      ]
+    },
+    "CMN – Constructions Mécaniques de Normandie (France)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Patrol"
+      ]
+    },
+    "Piriou Shipyard (France)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Patrol"
+      ]
+    },
+    "OCEA Les Sables-d’Olonne (France)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Patrol",
+        "Commercial"
+      ]
+    },
+    "Socarenam (France)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Patrol",
+        "Commercial"
+      ]
+    },
+    "BAE Systems – Barrow-in-Furness (UK)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Submarine"
+      ]
+    },
+    "BAE Systems – Govan (UK)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval"
+      ]
+    },
+    "BAE Systems – Scotstoun (UK)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval"
+      ]
+    },
+    "Babcock Rosyth (UK)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Repair"
+      ]
+    },
+    "Cammell Laird (UK)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "Harland & Wolff Belfast (UK)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Harland & Wolff Appledore (UK)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Ferguson Marine (UK)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Ferries"
+      ]
+    },
+    "A&P Falmouth (UK)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "A&P Tyne (UK)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "A&P Tees (UK)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Damen Shiprepair Harlingen (Netherlands)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Navantia Ferrol (Spain)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Navantia Cartagena (Spain)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Submarine"
+      ]
+    },
+    "Navantia Cadiz / Puerto Real (Spain)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "Navantia San Fernando (Spain)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval"
+      ]
+    },
+    "Zamakona Yards Bilbao (Spain)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Zamakona Yards Las Palmas (Spain)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Offshore"
+      ]
+    },
+    "Astilleros Gondán (Spain)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Astilleros Armon (Spain)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Tug",
+        "Offshore"
+      ]
+    },
+    "Astican – Astilleros de Canarias (Spain)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Offshore"
+      ]
+    },
+    "Metalships & Docks (Spain)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "WestSea Viana do Castelo (Portugal)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Cruise"
+      ]
+    },
+    "Lisnave – Mitrena (Portugal)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Navalrocha (Portugal)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Fincantieri Monfalcone (Italy)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Cruise"
+      ]
+    },
+    "Fincantieri Marghera (Italy)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Cruise"
+      ]
+    },
+    "Fincantieri Sestri Ponente (Italy)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Cruise"
+      ]
+    },
+    "Fincantieri Ancona (Italy)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Cruise"
+      ]
+    },
+    "Fincantieri Palermo (Italy)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Fincantieri Castellammare di Stabia (Italy)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "Fincantieri Riva Trigoso (Italy)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval"
+      ]
+    },
+    "Fincantieri Muggiano (Italy)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Submarine"
+      ]
+    },
+    "Cantiere Navale Vittoria (Italy)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Patrol",
+        "Commercial"
+      ]
+    },
+    "Cantiere Navale Palumbo (Italy)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Superyachts"
+      ]
+    },
+    "Remontowa Gdańsk (Poland)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "CRIST Shipyard (Poland)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Gdańsk Shipyard (Poland)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Stocznia Szczecińska (Poland)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Damen Shipyards Mangalia (Romania)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Damen Shipyards Galați (Romania)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "VARD Tulcea (Romania)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Uljanik Shipyard (Croatia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "3. Maj Shipyard (Croatia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Brodosplit (Croatia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "Western Shipyard – BLRT (Lithuania)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Riga Shipyard (Latvia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Tallinn Shipyard – BLRT (Estonia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Sevmash (Russia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Submarine"
+      ]
+    },
+    "Admiralty Shipyards (Russia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Submarine"
+      ]
+    },
+    "Baltiysky Zavod (Russia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Icebreaker"
+      ]
+    },
+    "Yantar Shipyard (Russia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Zvezda Shipbuilding Complex (Russia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Vyborg Shipyard (Russia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Ice-class"
+      ]
+    },
+    "Black Sea Shipyard (Ukraine)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "Ocean Shipyard Mykolaiv (Ukraine)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Kuznya na Rybalskomu (Ukraine)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Newport News Shipbuilding (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Submarine"
+      ]
+    },
+    "General Dynamics Electric Boat – Groton (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Submarine"
+      ]
+    },
+    "General Dynamics Electric Boat – Quonset Point (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Submarine"
+      ]
+    },
+    "General Dynamics NASSCO San Diego (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "Philly Shipyard (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial"
+      ]
+    },
+    "Fincantieri Marinette Marine (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval"
+      ]
+    },
+    "Fincantieri Bay Shipbuilding (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Ingalls Shipbuilding Pascagoula (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval"
+      ]
+    },
+    "Austal USA (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "BAE Systems Jacksonville Ship Repair (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "BAE Systems San Diego Ship Repair (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Vigor Shipyards Portland (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Vigor Shipyards Seattle (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Vigor Ketchikan (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Bollinger Shipyards (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "Bollinger Mississippi Shipbuilding (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "Eastern Shipbuilding Group (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "Conrad Shipyard (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Thoma-Sea Marine Constructors (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial"
+      ]
+    },
+    "Master Boat Builders (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Metal Shark (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Patrol"
+      ]
+    },
+    "Dakota Creek Industries (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial"
+      ]
+    },
+    "Nichols Brothers Boat Builders (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial"
+      ]
+    },
+    "Gladding-Hearn Shipbuilding (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Patrol"
+      ]
+    },
+    "All American Marine (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Ferries"
+      ]
+    },
+    "Colonna's Shipyard (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Norfolk Naval Shipyard (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Repair"
+      ]
+    },
+    "Puget Sound Naval Shipyard (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Repair"
+      ]
+    },
+    "Portsmouth Naval Shipyard (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Repair"
+      ]
+    },
+    "Pearl Harbor Naval Shipyard (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Repair"
+      ]
+    },
+    "Bay Ship & Yacht (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "VT Halter / Bollinger Pascagoula (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "Keppel AmFELS (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Great Lakes Shipyard (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Detyens Shipyards (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Irving Halifax Shipyard (Canada)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Seaspan Vancouver Shipyards (Canada)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "Seaspan Victoria Shipyards (Canada)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Davie Shipbuilding (Canada)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "Heddle Shipyards (Canada)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Chantier Naval Forillon (Canada)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial"
+      ]
+    },
+    "Ocean Group Shipyard Quebec (Canada)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "ASTIMAR 1 Tampico (Mexico)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "ASTIMAR 3 Coatzacoalcos (Mexico)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "ASTIMAR 6 Guaymas (Mexico)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "ASTIMAR 20 Salina Cruz (Mexico)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Talleres Navales del Golfo (TNG) Veracruz (Mexico)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "SIMSA Shipyard (Mexico)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Damen Shiprepair Curaçao (Curaçao)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Grand Bahama Shipyard (Bahamas)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Caribbean Dockyard & Engineering (Trinidad & Tobago)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Estaleiro Rio Grande (Brazil)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Estaleiro Mauá (Brazil)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Wilson Sons Shipyard Guarujá (Brazil)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Tug"
+      ]
+    },
+    "Ecovix (Brazil)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "ASENAV Valdivia (Chile)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Ferries"
+      ]
+    },
+    "ASMAR Talcahuano (Chile)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Repair"
+      ]
+    },
+    "COTECMAR Cartagena (Colombia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "ASTINAVE EP (Ecuador)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "SIMA Chimbote (Peru)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "SIMA Iquitos (Peru)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial"
+      ]
+    },
+    "TANDANOR (Argentina)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Contessi Shipyard (Argentina)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Fishing"
+      ]
+    },
+    "Tsakos Industrias Navales (Uruguay)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "DIANCA – Diques y Astilleros Nacionales (Venezuela)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Austal Henderson (Australia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "BAE Systems Henderson (Australia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Repair"
+      ]
+    },
+    "ASC Osborne (Australia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Submarine"
+      ]
+    },
+    "Incat Tasmania (Australia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Ferries"
+      ]
+    },
+    "Civmec Henderson (Australia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Forgacs – Newcastle (Australia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "NZ Ship Repair – Devonport (New Zealand)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Stabicraft / Marine Industrial Park (New Zealand)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial"
+      ]
+    },
+    "Sedef Shipyard (Turkey)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Naval"
+      ]
+    },
+    "Sefine Shipyard (Turkey)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Cemre Shipyard (Turkey)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Tersan Shipyard (Turkey)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Anadolu Shipyard (Turkey)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Istanbul Shipyard (Turkey)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Dearsan Shipyard (Turkey)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Yonca-Onuk Shipyard (Turkey)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Patrol",
+        "Naval"
+      ]
+    },
+    "Desan Shipyard (Turkey)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Sanmar Shipyards (Turkey)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Tug"
+      ]
+    },
+    "Benetti Livorno (Italy)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Yacht"
+      ]
+    },
+    "CRN Ancona (Italy)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Yacht"
+      ]
+    },
+    "Sanlorenzo La Spezia (Italy)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Yacht"
+      ]
+    },
+    "Baglietto La Spezia (Italy)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Yacht"
+      ]
+    },
+    "Ferretti Ancona (Italy)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Yacht"
+      ]
+    },
+    "Damen Shiprepair Amsterdam (Netherlands)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Damen Shiprepair Rotterdam (Netherlands)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Icon Yachts Harlingen (Netherlands)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Yacht"
+      ]
+    },
+    "VARD Brattvaag (Norway)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "VARD Søviknes (Norway)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "VARD Aukra (Norway)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Ulstein Verft (Norway)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Kleven Yard (Norway)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Havyard Leirvik (Norway)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Fitjar Mekaniske Verksted (Norway)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Aibel Haugesund Yard (Norway)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Offshore",
+        "Repair"
+      ]
+    },
+    "Hellenic Shipyards Skaramangas (Greece)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Elefsis Shipyards (Greece)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Naval",
+        "Commercial"
+      ]
+    },
+    "Neorion Syros Shipyards (Greece)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Piraeus Ship Repair Zone (Greece)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Kiziltoprak Shipyard (Cyprus)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Damen Shiprepair Brest (France)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Harland & Wolff Belfast Yard (UK)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Offshore"
+      ]
+    },
+    "Damen Shiprepair Vlissingen (Netherlands)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Damen Shiprepair Den Helder (Netherlands)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "BMA Shipyard Antwerp (Belgium)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Verolme Cork Dockyard (Ireland)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Repair",
+        "Commercial"
+      ]
+    },
+    "Harland & Wolff Methil (UK)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Harland & Wolff Arnish (UK)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Damen Shiprepair Dunkerque (France)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "SMS Group Lowestoft (UK)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Blyth Tall Ship Yard (UK)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Harwich Navyard (UK)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Plymouth Appledore Facility (UK)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Astilleros Balenciaga (Spain)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Armon Gijón (Spain)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Armon Vigo (Spain)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Astilleros Murueta (Spain)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Armon Navia (Spain)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Lindenau Werft (Germany)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Peters Werft (Germany)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Norderwerft (Germany)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Chantiers Piriou Concarneau (France)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "CMI La Rochelle (France)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "La Ciotat Shipyards (France)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Royal Huisman (Netherlands)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Damen Hardinxveld (Netherlands)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Koninklijke De Vries Scheepsbouw (Netherlands)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Rosetti Marino (Italy)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Codecasa Viareggio (Italy)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Cantieri Navali Vittoria (Italy)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Karstensen Skagen (Denmark)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Ornskoldsvik Shipyard (Sweden)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Gryfia Shiprepair Yard (Poland)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Nauta Shiprepair Yard (Poland)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Baltija Shipyard (Lithuania)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "BLRT Western Baltija (Lithuania)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Kotor Shipyard (Montenegro)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "NCP Repair Šibenik (Croatia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Severnaya Verf (Russia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Amur Shipbuilding Plant (Russia)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Nibulon Shipbuilding (Ukraine)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "ART Shipyard Tuzla (Turkey)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Basaran Shipyard (Turkey)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Drydocks World Graha (UAE)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Fujairah Marine Services (UAE)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Alexandria Shipyard Ezz El Arab (Egypt)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Lagos Deep Offshore Logistics (LADOL) (Nigeria)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "VT Halter Pascagoula (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Senesco Marine (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Washburn & Doughty (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Blount Boats (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Silver Ships (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "SAFE Boats International (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Marinette Small Boat Works (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Halter Marine Repair (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Metal Trades Inc (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Port City Shipbuilding (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "JAG Alaska – Seward (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Portland Yacht Services (USA)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Ocean Industries – Isle-aux-Coudres (Canada)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Seaway Marine & Industrial (Canada)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Nanaimo Shipyard (Canada)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Shelburne Ship Repair (Canada)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Astilleros de Veracruz (Mexico)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Astilleros Unidos de Veracruz (Mexico)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Astilleros de Marina Cancun (Mexico)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Astilleros Ultrapetrol (Uruguay)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Astillero SPI Mar del Plata (Argentina)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Arsenal de Marina de Guerra del Perú (Peru)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
+    },
+    "Astilleros y Maestranzas de la Armada Punta Arenas (Chile)": {
+      "is_busy": False,
+      "current_project_start": None,
+      "current_project_end": None,
+      "allowed_categories": [
+        "Commercial",
+        "Repair"
+      ]
     }
-
+  }
 }
+
 
 
 # Typical project durations (in days) for categories - you can tune this
