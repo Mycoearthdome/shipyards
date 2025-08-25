@@ -126,6 +126,156 @@ World_fleet = {
     },
 
     "shipyards": {
+        "Chantiers de l’Atlantique (Saint‑Nazaire, France)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["Cruise", "Commercial", "Naval"]
+        },
+        "Harland & Wolff (Belfast, UK)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["Defense", "Offshore", "Commercial"]
+        },
+        "Saab Kockums (Malmö, Sweden)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["Naval", "Submarine"]
+        },
+        "Zvezda Shipbuilding Complex (Bolshoy Kamen, Russia)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["Oil & Gas", "Icebreaker", "LNG"]
+        },
+        "United Shipbuilding Corporation (Russia)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["Naval", "Commercial"]
+        },
+        "Hyundai Samho Heavy Industries (Mokpo, South Korea)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["VLCC", "Container Ship", "Offshore"]
+        },
+        "Hyundai Mipo Dockyard (South Korea)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["Bulk Carrier", "Product Carrier", "Car Carriers"]
+        },
+        "STX Offshore & Shipbuilding (South Korea)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["FPSO", "Drillship", "LNG"]
+        },
+        "Mitsui E&S Shipbuilding (Japan)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["Bulk Carrier", "LNG", "Repair"]
+        },
+        "Japan Marine United (Japan)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["Naval", "LNG", "Container Ship"]
+        },
+        "Yantai Raffles Shipyard (China)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["Offshore", "Platform"]
+        },
+        "Bohai Shipyard (Huludao, China)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["Military", "Civilian"]
+        },
+        "Shanghai Waigaoqiao Shipbuilding (China)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["Container Ship", "Tanker"]
+        },
+        "China Merchants Heavy Industry (China)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["Bulk Carrier", "Offshore"]
+        },
+        "Yangzijiang Shipbuilding (China)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["Container Ship", "Multi-purpose"]
+        },
+        "COSCO Shipyard Group (China)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["Bulk Carrier", "Repair"]
+        },
+        "Hudong‑Zhonghua Shipbuilding (China)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["LNG", "Naval", "Container"]
+        },
+        "Davie Shipbuilding (Lévis, Canada)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["Commercial", "Offshore", "Repair"]
+        },
+        "Newport News Shipbuilding (USA)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["Naval", "Submarine"]
+        },
+        "Norfolk Naval Shipyard (USA)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["Repair", "Overhaul"]
+        },
+        "Electric Boat (USA)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["Submarine"]
+        },
+        "Puget Sound Naval Shipyard (USA)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["Repair", "Naval"]
+        },
+        "Cascade General Ship Repair (USA)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["Repair"]
+        },
+        "Pearl Harbor Naval Shipyard (USA)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["Repair", "Naval"]
+        },
+        "NASSCO (San Diego, USA)": {
+        "is_busy": False,
+        "current_project_start": None,
+        "current_project_end": None,
+        "allowed_categories": ["Commercial", "Tanker"]
+        },
         "Hyundai Heavy Industries (HHI), Ulsan": {
             "is_busy": True,
             "current_project_start": date(2025, 5, 10),
@@ -162,6 +312,7 @@ World_fleet = {
         "Jiangnan Shipyard, Shanghai": {
             "is_busy": False,
             "current_project_start": None,
+            "current_project_end": None,
             "allowed_categories": ["Commercial", "LNG", "Naval"]
         },
         "Guangzhou Shipyard International": {
@@ -181,6 +332,7 @@ World_fleet = {
         "Imabari Shipbuilding, Ehime": {
             "is_busy": False,
             "current_project_start": None,
+            "current_project_end": None,
             "allowed_categories": ["Bulk Carrier", "Commercial", "Container Ship"]
         },
         "Oshima Shipbuilding, Saikai": {
@@ -200,6 +352,7 @@ World_fleet = {
         "Meyer Werft, Germany": {
             "is_busy": False,
             "current_project_start": None,
+            "current_project_end": None,
             "allowed_categories": ["Cruise", "Ferry", "Luxury Yachts"]
         },
         "Navantia, Spain": {
@@ -226,6 +379,7 @@ World_fleet = {
         "Bath Iron Works, Maine": {
             "is_busy": False,
             "current_project_start": None,
+            "current_project_end": None,
             "allowed_categories": ["Naval", "Defense"]
         },
         "Sevmash, Severodvinsk": {
