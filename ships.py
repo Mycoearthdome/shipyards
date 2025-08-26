@@ -9,61 +9,17 @@ import random
 
 World_fleet = {
     "merchant_fleet_breakdown": {
-        "bulk_carrier": {
-            "count": 13141,
-            "average_age": 11.7
+        "Commercial": {
+            "count": 109000, #2024 (UNCTAD broader)
+            "average_age": 15
         },
-        "container_ship": {
-            "count": 5815,
-            "average_age": 14.1
-        },
-        "general_cargo": {
-            "count": 19918,
-            "average_age": 26.4
-        },
-        "oil_tanker": {
-            "count": 11604,
-            "average_age": 12.8
-        },
-        "other_vessels": {
-            "count": 53099,
-            "average_age": 22.5
-        }
     },
 
     "other_vessel_types": {
-        "tugboats": {
-            "count": 17200,
+        "Repair": {
+            "count": 92700,
             "average_age": 24.3
         },
-        "fishing_vessels_large": {
-            "count": 65000,
-            "average_age": 28.0
-        },
-        "cruise_ships": {
-            "count": 400,
-            "average_age": 22.6
-        },
-        "lng_carriers": {
-            "count": 700,
-            "average_age": 10.1
-        },
-        "lpg_carriers": {
-            "count": 1500,
-            "average_age": 13.5
-        },
-        "offshore_support_vessels": {
-            "count": 6000,
-            "average_age": 17.8
-        },
-        "research_vessels": {
-            "count": 600,
-            "average_age": 25.0
-        },
-        "ro_ro_ships": {
-            "count": 1300,
-            "average_age": 19.6
-        }
     },
 
     "naval_forces_by_country": {
@@ -3833,26 +3789,8 @@ World_fleet = {
 
 # Typical project durations (in days) for categories - you can tune this
 PROJECT_DURATIONS = {
-    "bulk_carrier": 365,
-    "container_ship": 365,
-    "general_cargo": 400,
-    "oil_tanker": 365,
-    "other_vessels": 300,
-    "tugboats": 180,
-    "fishing_vessels_large": 250,
-    "cruise_ships": 450,
-    "lng_carriers": 365,
-    "lpg_carriers": 365,
-    "offshore_support_vessels": 300,
-    "research_vessels": 365,
-    "ro_ro_ships": 365,
-    "naval": 500,
-    "defense": 500,
-    "submarine": 600,
-    "commercial": 365,
-    "cruise": 450,
-    "oil_and_gas": 400,
-    "luxury_yachts": 200,
+    "Commercial": 365,
+    "Repair": 200,
 }
 
 # Constants for replacement age window
